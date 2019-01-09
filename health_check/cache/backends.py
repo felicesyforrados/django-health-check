@@ -2,7 +2,7 @@ from django.core.cache import CacheKeyWarning, cache
 
 from health_check.backends import BaseHealthCheckBackend
 from health_check.exceptions import (
-    ServiceReturnedUnexpectedResult, ServiceUnavailable
+    ServiceReturnedUnexpectedResult, ServiceUnavailable, ConnectionError
 )
 
 
